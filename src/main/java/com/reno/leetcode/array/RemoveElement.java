@@ -50,6 +50,8 @@ Constraints:
 0 <= nums[i] <= 50
 0 <= val <= 100
  */
+//Amazon
+//RRR
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int result = 0;

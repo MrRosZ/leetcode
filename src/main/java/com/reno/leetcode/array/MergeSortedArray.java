@@ -31,21 +31,22 @@ nums2.length == n
 1 <= m + n <= 200
 -109 <= nums1[i], nums2[j] <= 109
  */
+//RRR
 public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-                int min = m - 1;
-                int max = n-1;
-                int target = m+n-1;
-                while (max >= 0){
-                    if(min >= 0 && nums2[max] < nums1[min]){
-                        nums1[target] = nums1[min];
-                        min--;
-                    }else{
-                        nums1[target] = nums2[max];
-                        max--;
-                    }
-                    target--;
-                }
+        int min = m - 1;
+        int max = n - 1;
+        int target = m + n - 1;
+        while (max >= 0) {
+            if (min >= 0 && nums2[max] < nums1[min]) {
+                nums1[target] = nums1[min];
+                min--;
+            } else {
+                nums1[target] = nums2[max];
+                max--;
+            }
+            target--;
+        }
         System.out.println(Arrays.toString(nums1));
 
     }
