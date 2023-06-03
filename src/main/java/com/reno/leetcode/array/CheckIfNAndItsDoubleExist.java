@@ -1,6 +1,7 @@
 package com.reno.leetcode.array;
 
 import java.util.HashSet;
+import java.util.Set;
 
 /*
 Given an array arr of integers, check if there exist two indices i and j such that :
@@ -30,7 +31,7 @@ Constraints:
 //RRR
 public class CheckIfNAndItsDoubleExist {
     public boolean checkIfExist(int[] arr) {
-        HashSet<Integer> resultSet = new HashSet();
+        Set resultSet = new HashSet<Integer>();
         for (int cur:arr) {
             if(resultSet.contains(cur)){
                 return true;
