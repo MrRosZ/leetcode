@@ -1,9 +1,6 @@
 package com.reno.leetcode;
 
-import com.reno.leetcode.array.CheckIfNAndItsDoubleExist;
-import com.reno.leetcode.array.MergeSortedArray;
-import com.reno.leetcode.array.RemoveDuplicatesFromSortedArray;
-import com.reno.leetcode.array.RemoveElement;
+import com.reno.leetcode.array.*;
 
 public class Runner {
     public static void main(String[] args) {
@@ -16,8 +13,10 @@ public class Runner {
         removeElement.removeElement(new int[]{3,2,2,3}, 3);*/
         /*RemoveDuplicatesFromSortedArray removeDuplicates = new RemoveDuplicatesFromSortedArray();
         removeDuplicates.removeDuplicates(new int[]{1,1,2});*/
-        CheckIfNAndItsDoubleExist result = new CheckIfNAndItsDoubleExist();
-        System.out.println(result.checkIfExist(new int[]{10,2,5,3}));
+        /*CheckIfNAndItsDoubleExist result = new CheckIfNAndItsDoubleExist();
+        System.out.println(result.checkIfExist(new int[]{10,2,5,3}));*/
+        ValidMountainArray mountainArray = new ValidMountainArray();
+        System.out.println(mountainArray.validMountainArray(new int[]{0,3,2,1}));
 
 
     }
