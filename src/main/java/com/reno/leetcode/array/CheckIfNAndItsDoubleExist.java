@@ -31,7 +31,7 @@ Constraints:
 //RRR
 public class CheckIfNAndItsDoubleExist {
     public boolean checkIfExist(int[] arr) {
-        Set resultSet = new HashSet<Integer>();
+        Set<Integer> resultSet = new HashSet();
         for (int cur:arr) {
             if(resultSet.contains(cur)){
                 return true;
