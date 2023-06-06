@@ -2,6 +2,8 @@ package com.reno.leetcode;
 
 import com.reno.leetcode.array.*;
 
+import java.util.Arrays;
+
 public class Runner {
     public static void main(String[] args) {
         /*MergeSortedArray mergeSortedArray = new MergeSortedArray();
@@ -15,8 +17,11 @@ public class Runner {
         removeDuplicates.removeDuplicates(new int[]{1,1,2});*/
         /*CheckIfNAndItsDoubleExist result = new CheckIfNAndItsDoubleExist();
         System.out.println(result.checkIfExist(new int[]{10,2,5,3}));*/
-        ValidMountainArray mountainArray = new ValidMountainArray();
-        System.out.println(mountainArray.validMountainArray(new int[]{0,3,2,1}));
+        /*ValidMountainArray mountainArray = new ValidMountainArray();
+        System.out.println(mountainArray.validMountainArray(new int[]{0,3,2,1}));*/
+        ReplaceElementsWithGreatestElementOnRightSide replaceElements = new ReplaceElementsWithGreatestElementOnRightSide();
+        int[] result = replaceElements.replaceElements(new int[]{17,18,5,4,6,1});
+        System.out.println(Arrays.toString(result));
 
 
     }
