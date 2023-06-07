@@ -19,9 +19,11 @@ public class Runner {
         System.out.println(result.checkIfExist(new int[]{10,2,5,3}));*/
         /*ValidMountainArray mountainArray = new ValidMountainArray();
         System.out.println(mountainArray.validMountainArray(new int[]{0,3,2,1}));*/
-        ReplaceElementsWithGreatestElementOnRightSide replaceElements = new ReplaceElementsWithGreatestElementOnRightSide();
+        /*ReplaceElementsWithGreatestElementOnRightSide replaceElements = new ReplaceElementsWithGreatestElementOnRightSide();
         int[] result = replaceElements.replaceElements(new int[]{17,18,5,4,6,1});
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result));*/
+        MoveZeroes moveZeroes = new MoveZeroes();
+        moveZeroes.moveZeroes(new int[]{0,1,0,3,12});
 
 
     }
