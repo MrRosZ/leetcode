@@ -22,8 +22,11 @@ public class Runner {
         /*ReplaceElementsWithGreatestElementOnRightSide replaceElements = new ReplaceElementsWithGreatestElementOnRightSide();
         int[] result = replaceElements.replaceElements(new int[]{17,18,5,4,6,1});
         System.out.println(Arrays.toString(result));*/
-        MoveZeroes moveZeroes = new MoveZeroes();
-        moveZeroes.moveZeroes(new int[]{0,1,0,3,12});
+        /*MoveZeroes moveZeroes = new MoveZeroes();
+        moveZeroes.moveZeroes(new int[]{0,1,0,3,12});*/
+        SortArrayByParity sortArrayByParity = new SortArrayByParity();
+        int[] result = sortArrayByParity.sortArrayByParity(new int[]{3,1,2,4});
+        System.out.println(Arrays.toString(result));
 
 
     }
